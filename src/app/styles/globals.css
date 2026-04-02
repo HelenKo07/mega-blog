@@ -1,0 +1,10 @@
+@import url('./normalise.css');
+@import url('./variables.css');
+
+body {
+    background-color: var(--color-background, #333333);
+    color: var(--color-text, #ffffff);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
